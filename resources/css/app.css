@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('./product-list.css');
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container
+{
+    width:85%;
+    margin: 0 auto;
+}
+
+:root
+{
+    --primary-color:#ff0066;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    padding: 0 !important;;
+    margin: 0 !important;;
+}
+
+button
+{
+    font-size: 15px;
+    transition: .5s;
+}
+
+button:hover
+{
+
+}
+
+.btn-primary
+{
+    color: var(--primary-color);
+    background: none;
+    border: 2px solid var(--primary-color);
+}
+
+.btn-primary:hover
+{
+    background: var(--primary-color);
+    color: white;;
+}
+
+.add
+{
+    border: 2px solid var(--primary-color);
+    border-radius: 100%;
+    justify-content: center;
+    font-size: 30px;
+    padding: 5px;
+    width:30px;
+    height:30px;
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    transition: .5s;
+}
+
+.add:hover
+{
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.delete
+{
+    background: none;
+}
+
+.delete:hover
+{
+    color: var(--primary-color);
+}
+
+.edit
+{
+    background: none;
+}
+
+.edit:hover
+{
+    color: var(--primary-color);
+}
+
+/*Forms*/
+.form
+{
+    box-shadow: 0px 0px 4px 1px rgba(178, 178, 178, 0.2);
+    width: fit-content;
+    margin:0 auto;
+    padding: 15px;
+}
+
+.form-group
+{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"]
+{
+    border: 2px solid black;
+    outline: none;
+}
+
+textarea[type="text"]
+{
+    border: 2px solid black;
+    outline: none;
+    max-width: 250px;
+    min-width: 250px;
+}
+
+input[type="number"]
+{
+    border: 2px solid black;
+    outline: none;
+}

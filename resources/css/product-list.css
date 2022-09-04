@@ -1,0 +1,59 @@
+table
+{
+    box-shadow: 0px 0px 4px 1px rgba(178, 178, 178, 0.2);
+    margin: 0 auto;
+    gap:0;
+    margin-top: 2rem;
+}
+
+thead
+{
+    background-color: black;
+    color: white;
+}
+
+td
+{
+    padding:1rem;
+    max-width: 350px;
+    border-bottom: 1px solid rgb(239, 239, 239);
+}
+
+td p
+{
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+}
+
+th
+{
+    font-weight: 100;
+}
+
+tr:hover
+{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.title
+{
+    display: table;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.text-center
+{
+    display: table-cell;
+}
+
+.add
+{
+    display: table-cell;
+}
+
+
+
