@@ -2,9 +2,18 @@ Example project
 
 1)use xampp to localhost
 
-2)php artisan migrate
+2)update database = "//your database name" in .env file
 
-3)php artisan serve && npm run dev
+3)php artisan migrate
+
+4)php artisan serve && npm run dev
+
+Purpose of project :
+
+CURD functionaluty using vue-route & vue-axios. 
+All data can be fetched from / written to MySQl 
+
+by Narulan Baurzhanuly
 
 Enjoy!
 
